@@ -35,6 +35,7 @@ namespace PracticeProject
             {
                 Console.WriteLine("Incorrect");
             }
+            Console.WriteLine("Thank you for playing");
             Console.ReadLine();
         }
     }
