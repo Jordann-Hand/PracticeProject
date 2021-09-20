@@ -48,7 +48,7 @@ namespace PracticeProject
             }
             else
             {
-                Console.WriteLine("Your score was dissapointing");
+                Console.WriteLine("Your score was disapointing");
             }
             Console.ReadLine();
         }
