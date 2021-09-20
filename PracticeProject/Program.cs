@@ -19,8 +19,19 @@ namespace PracticeProject
             {
                 Console.WriteLine("Incorrect");
             }
-
-
+            string answer2 = "Eddie Hall";
+            Console.Write("Who is the strongest man inb the world");
+            temp = Console.ReadLine();
+            temp = temp.ToLower();
+            if (temp == answer2)
+            {
+                Console.WriteLine("correct");
+            }
+            else
+            {
+                Console.WriteLine("Incorrect");
+            }
+            Console.ReadLine();
         }
     }
 }
