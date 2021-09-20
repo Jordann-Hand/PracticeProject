@@ -8,6 +8,10 @@ namespace PracticeProject
         {
             string temp, answer1 = "usain bolt";
 
+            Console.WriteLine("Welcome to this quiz.. test yourself");
+            Console.WriteLine("Press any key to begin the quiz");
+            Console.ReadLine();
+
             Console.Write("Who is fastest in the world? ");
             temp = Console.ReadLine();
             temp = temp.ToLower();
